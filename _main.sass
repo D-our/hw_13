@@ -1,0 +1,67 @@
+.categ
+  display: flex
+  justify-content: space-around
+  flex-wrap: wrap
+  text-align: center
+
+
+
+.school, .work, .courses, .other
+  background: $school
+  color: white
+  padding: 10px
+  border-radius: 10px
+  width: 118px
+  height: 39px
+  text-transform: uppercase
+  font-size: 12px
+  margin-bottom: 10px
+
+
+.work
+  background: $work
+
+.courses
+  background: #f98da4
+
+.other
+  background: $other
+
+.calendar
+  display: flex
+  flex-direction: column
+
+.dev__fb
+  background-color: $feedback__background
+  border-radius: 10px
+  margin-bottom: 10px
+  border-left: 5px solid $courses
+  p
+    &:last-of-type
+      color: $courses
+
+.des__m
+  background-color: $meeting__background
+  border-radius: 10px
+  margin-bottom: 10px
+  border-left: 5px solid $other
+  p
+    &:last-of-type
+      color: $other
+
+.call__s
+  background-color: $Stefano__background
+  border-radius: 10px
+  margin-bottom: 10px
+  border-left: 5px solid $school
+  p
+    &:last-of-type
+      color: $school
+
+p
+  font-size: 12px
+  padding: 5px
+  margin: 6px
+  
+
+
